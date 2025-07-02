@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Final</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav class="navbar">
+    <a href="index.html">Inicio</a>
+    <a href="informacion.html">información</a>
+    <a href="consejos.html">Consejos</a>
+  </nav>
+  <h2>Consejos</h2>
+  <ul>
+    <li>Lorem ipsum dolor sit amet.</li>
+    <li>Lorem ipsum dolor sit amet.</li>
+    <li>Lorem ipsum dolor sit amet.</li>
+  </ul>
+
+  <h2>Contacto</h2>
+  <form id="contactForm">
+    <input type="text" id="name" placeholder="Nombre" required>
+    <input type="email" id="email" placeholder="Correo" required>
+    <textarea id="message" placeholder="Mensaje" required></textarea>
+    <button type="submit">Enviar</button>
+  </form>
+
+  <button id="openModal">Abrir Test</button>
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <form id="test">
+        <p>1. Pregunta?<br><input type="radio" name="q1"> A <input type="radio" name="q1"> B</p>
+        <p>2. Pregunta?<br><input type="radio" name="q2"> A <input type="radio" name="q2"> B</p>
+        <p>3. Pregunta?<br><input type="radio" name="q3"> A <input type="radio" name="q3"> B</p>
+        <p>4. Pregunta?<br><input type="radio" name="q4"> A <input type="radio" name="q4"> B</p>
+        <p>5. Pregunta?<br><input type="radio" name="q5"> A <input type="radio" name="q5"> B</p>
+        <button type="submit">Enviar Test</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="script/script.js"></script>
+</body>
+</html>
